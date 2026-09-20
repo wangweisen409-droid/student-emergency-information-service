@@ -94,6 +94,10 @@ function dismissIntro() {
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3 6 6-3 6 3 6-3v15l-6 3-6-3-6 3V6Zm6-3v15m6-12v15"/></svg>
           <span><strong>校园地图</strong><small>确认校区与常用位置</small></span>
         </RouterLink>
+        <RouterLink to="/campus-3d">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18v14H3zM7 9h4v4H7zM14 8h3v2h-3zm0 4h3v2h-3zM5 3h14"/></svg>
+          <span><strong>3D 校园地图</strong><small>进入津南校园互动地图</small></span>
+        </RouterLink>
         <RouterLink to="/nearby">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-5.2 7-12a7 7 0 1 0-14 0c0 6.8 7 12 7 12Zm0-9a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/></svg>
           <span><strong>周边信息</strong><small>交通与公共服务设施</small></span>
